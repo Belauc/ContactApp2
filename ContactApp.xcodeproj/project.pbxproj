@@ -13,6 +13,11 @@
 		A53665B0278F861100DCE013 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A53665AE278F861100DCE013 /* Main.storyboard */; };
 		A53665B2278F861B00DCE013 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A53665B1278F861B00DCE013 /* Assets.xcassets */; };
 		A53665B5278F861B00DCE013 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A53665B3278F861B00DCE013 /* LaunchScreen.storyboard */; };
+		A55CE9E727902214002452C3 /* ContactsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55CE9E627902214002452C3 /* ContactsTableViewController.swift */; };
+		A55CFD412791A214005F207A /* MoreTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55CFD3F2791A214005F207A /* MoreTableViewCell.swift */; };
+		A55CFD422791A214005F207A /* MoreTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A55CFD402791A214005F207A /* MoreTableViewCell.xib */; };
+		A55EFCFA2790524400C0EF9B /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55EFCF92790524400C0EF9B /* Models.swift */; };
+		A55EFCFD2790B21000C0EF9B /* MoreTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55EFCFC2790B21000C0EF9B /* MoreTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		A53665B1278F861B00DCE013 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A53665B4278F861B00DCE013 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A53665B6278F861B00DCE013 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A55CE9E627902214002452C3 /* ContactsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsTableViewController.swift; sourceTree = "<group>"; };
+		A55CFD3F2791A214005F207A /* MoreTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreTableViewCell.swift; sourceTree = "<group>"; };
+		A55CFD402791A214005F207A /* MoreTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MoreTableViewCell.xib; sourceTree = "<group>"; };
+		A55EFCF92790524400C0EF9B /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		A55EFCFC2790B21000C0EF9B /* MoreTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +73,11 @@
 				A53665B1278F861B00DCE013 /* Assets.xcassets */,
 				A53665B3278F861B00DCE013 /* LaunchScreen.storyboard */,
 				A53665B6278F861B00DCE013 /* Info.plist */,
+				A55CE9E627902214002452C3 /* ContactsTableViewController.swift */,
+				A55EFCF92790524400C0EF9B /* Models.swift */,
+				A55EFCFC2790B21000C0EF9B /* MoreTableViewController.swift */,
+				A55CFD3F2791A214005F207A /* MoreTableViewCell.swift */,
+				A55CFD402791A214005F207A /* MoreTableViewCell.xib */,
 			);
 			path = ContactApp;
 			sourceTree = "<group>";
@@ -124,6 +139,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A55CFD422791A214005F207A /* MoreTableViewCell.xib in Resources */,
 				A53665B5278F861B00DCE013 /* LaunchScreen.storyboard in Resources */,
 				A53665B2278F861B00DCE013 /* Assets.xcassets in Resources */,
 				A53665B0278F861100DCE013 /* Main.storyboard in Resources */,
@@ -139,7 +155,11 @@
 			files = (
 				A53665AD278F861100DCE013 /* ViewController.swift in Sources */,
 				A53665A9278F861100DCE013 /* AppDelegate.swift in Sources */,
+				A55CE9E727902214002452C3 /* ContactsTableViewController.swift in Sources */,
 				A53665AB278F861100DCE013 /* SceneDelegate.swift in Sources */,
+				A55CFD412791A214005F207A /* MoreTableViewCell.swift in Sources */,
+				A55EFCFD2790B21000C0EF9B /* MoreTableViewController.swift in Sources */,
+				A55EFCFA2790524400C0EF9B /* Models.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,7 +316,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.tobie.education.ContactApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -315,7 +335,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.tobie.education.ContactApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
